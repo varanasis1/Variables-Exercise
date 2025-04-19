@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string dogName = "Courage";
+            int  dogAge = 25;
+            
+            Console.WriteLine($"My dog's name is {dogName}, He is {dogAge} years old");
         }
     }
 }
